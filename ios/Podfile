@@ -12,6 +12,9 @@ target 'CARDS' do
     :hermes_enabled => false
   )
 
+  pod 'ViroReact', :path => '../node_modules/@viro-community/react-viro/ios'
+  pod 'ViroKit', :path => '../node_modules/@viro-community/react-viro/ios/dist/ViroRenderer/'
+
   target 'CARDSTests' do
     inherit! :complete
     # Pods for testing
